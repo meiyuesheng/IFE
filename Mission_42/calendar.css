@@ -1,0 +1,169 @@
+
+body {
+	font-family: "Microsoft YaHei";
+
+}
+.head {
+	width: 300px;
+
+	vertical-align: middle;
+	text-align: center;
+	
+}
+.headMonth,
+.headYear {
+	position: relative;
+	display: inline-block;
+	
+	height: 22px;
+	width: 80px;
+	border: 1px solid #aaaaaa;
+	
+	text-align: center;
+	line-height: 22px;
+
+	border-radius: 3px;
+	box-shadow: 0.5px 0.5px 0.5px 0.5px #aaaaaa;
+	
+}
+
+
+.lastMonth,
+.nextMonth,
+.lastYear,
+.nextYear {
+	display: inline-block;
+	
+	width: 20px;
+	height: 10px;
+	border: 1px solid #2d6ca2;
+	padding-left: 3px;
+	
+	font-size: 10px;
+	line-height: 10px;
+	vertical-align: middle;
+	font-weight: 100 !important;
+
+	background-color: #2d6ca2;
+	color: white;
+}
+.lastMonth,
+.lastYear {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+	border-top-right-radius: 3px;
+	padding-left: 4px;
+}
+
+.nextMonth,
+.nextYear {	
+	position: absolute;
+	right: 0px;
+	top: 10px;
+
+	padding-left: 2px;
+	border-bottom-right-radius: 3px;
+}
+.nextMonth:hover,
+.nextYear:hover,
+.lastMonth:hover,
+.lastYear:hover {
+	cursor: pointer;
+}
+
+
+table {
+
+	margin-top: 10px;
+	border: 1px solid lightgray;
+	
+	z-index: 900;
+	background-color: white;
+	
+}
+
+th,tr td {
+	width: 50px;
+	height: 50px;
+
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+.lastMonthDate,
+.nextMonthDate {
+	color: lightgray;
+}
+
+#nextMonth,
+#lastMonth {
+	cursor: pointer;
+}
+
+.contentmonth,
+.contentyear {
+	float: left;
+
+	margin-left: 10px;	
+}
+
+td.active {
+	background: #25649f;
+	color: white;
+}
+
+td:hover {
+	cursor: pointer;
+}
+
+td {
+	border-radius: 5px;
+}
+
+
+.datePicker {
+	width: 400px;
+	height: 30px;
+	border: 1px solid #25649f;
+
+	text-align: center;
+}
+
+.datePicker:focus {
+		box-shadow: 0.5px 0.5px 0.5px 0.5px #25649f;
+
+}
+
+
+.calendarConfirm {
+	width: 80px;
+	height: 30px;
+	border: 1px solid #25649f;
+
+	font-weight: 400;
+	color: white;
+
+	background: #25649f;
+	border-radius: 2px 2px 2px 2px;	
+}
+.calendarCancel {
+	width: 80px;
+	height: 30px;
+	border: 1px solid lightgray;
+	
+	color: black;
+	font-weight: 400;
+
+	border-radius: 2px 2px 2px 2px;
+	background: lightgray;
+}
+
+.selectedDate {
+	background: rgb(235, 244, 249);
+	border-radius: 0px;
+}
