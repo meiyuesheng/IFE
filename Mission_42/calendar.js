@@ -138,10 +138,10 @@ var Calendar = (function() {
 			
 
 			var thead = '<thead class="head">';
-			thead += '<tr><th><span class="glyphicon glyphicon-arrow-left " id="lastMonth"></span></th>'
-			+ '<th class="month" colspan="2"><span class="headMonth"><span class="contentmonth"></span><i class="glyphicon glyphicon-chevron-up lastMonth"></i><i class="nextMonth glyphicon glyphicon-chevron-down"></i></span></th>'
-			+ '<th class="year" colspan="2"><span class="headYear"><span class="contentyear"></span><i class="glyphicon glyphicon-chevron-up lastYear"></i><i class="nextYear glyphicon glyphicon-chevron-down"></i></span></th>'  
-			+ '<th><span class=" glyphicon glyphicon-arrow-right" id="nextMonth"></span></th></tr>'
+			thead += '<tr><th><span class="fa fa-arrow-left " id="lastMonth"></span></th>'
+			+ '<th class="month" colspan="2"><span class="headMonth"><span class="contentmonth"></span><i class="fa fa-chevron-up lastMonth"></i><i class="nextMonth fa fa-chevron-down"></i></span></th>'
+			+ '<th class="year" colspan="2"><span class="headYear"><span class="contentyear"></span><i class="fa fa-chevron-up lastYear"></i><i class="nextYear fa fa-chevron-down"></i></span></th>'  
+			+ '<th><span class=" fa fa-arrow-right" id="nextMonth"></span></th></tr>'
 			 + '<tr><th class="weekday">Su</th><th class="weekday">Mo</th><th class="weekday">Tu</spqn><th class="weekday">We</th><th class="weekday">Th</th><th class="weekday">Fr</th><th class="weekday">Sa</th></tr>';
 
 			thead += '</thead><tbody></tbody>';
