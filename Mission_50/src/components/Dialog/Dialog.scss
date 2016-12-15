@@ -1,0 +1,39 @@
+
+
+
+.dialog{
+
+	width:400px;
+	height: 250px;
+
+	position:fixed;
+	background: white;
+
+	left:50%;
+	top:50%;
+
+	transform:translate(-50%,-50%);
+
+	border-radius:5px;
+	
+	font-size: 16px;
+	z-index: 2;
+
+	.dialog-head{
+		background: #eee;
+		height: 40px;
+		line-height: 40px;
+		text-align: left;
+		
+		padding:0 10px 0 10px;	
+	}
+}
+
+
+.dialog-cancel{
+	float: right;
+
+	&:hover{
+		cursor: pointer;
+	}
+}

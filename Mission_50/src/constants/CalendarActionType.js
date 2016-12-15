@@ -1,0 +1,6 @@
+
+export const SWITCH_CALENDAR = 'SWITCH_CALENDAR';
+
+export const SELECT_DATE = 'SELECT_DATE';
+
+export const CHANGE_CURRENT = 'CHANGE_CURRENT';

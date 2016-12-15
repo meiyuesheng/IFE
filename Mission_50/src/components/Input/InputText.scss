@@ -1,0 +1,22 @@
+
+
+
+.container{
+	display: inline-block;
+	width:90%;
+}
+
+.InputText{
+	display: inline-block;
+	border:0px;
+	font-family: 'Microsoft yahei';
+	font-size: 15px;
+	margin:0px;
+	width: 80%;
+	vertical-align:middle;
+
+	&:hover{
+		background: #fef1e8;
+
+	}
+}

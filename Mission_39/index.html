@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>排序表格</title>
+	<!-- <link rel="stylesheet" type="text/css" href="tableSort.css"> -->
+	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+                        
+</head>
+<body>
+
+
+
+<table border="1" class="tablesort">
+<!-- <tr><td>实验</td><td>实验</td><td>实验</td><td>实验</td><td>实验</td></tr>
+<tr><td>实验</td><td>实验</td><td>实验</td><td>实验</td><td>实验</td></tr>
+<tr><td>实验</td><td>实验</td><td>实验</td><td>实验</td><td>实验</td></tr>
+<tr><th>实验</th><th>实验</th><th>实验</th><th>实验</th><th>实验</th></tr> -->
+</table>
+
+
+
+
+
+<script type = "text/javascript" src="tableSort.js"></script>	
+<script type="text/javascript">
+	// 传递参数： 表头信息，数据，排序方法
+
+	var head = ['姓名','语文','数学','英语','总分'];
+	var data = [
+	['一娃',60,80,20],
+	['二娃',70,40,90],
+	['三娃',20,80,40],
+	['四娃',50,60,90],
+	['五娃',10,20,60],
+	['六娃',80,50,80]
+	];
+	var tableSort = new TableSort(head,data);
+
+</script>
+
+</body>
+</html>
