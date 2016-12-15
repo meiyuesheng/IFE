@@ -54,7 +54,6 @@ body {
 	right: 0px;
 
 	border-top-right-radius: 3px;
-	padding-left: 4px;
 }
 
 .nextMonth,
@@ -63,7 +62,6 @@ body {
 	right: 0px;
 	top: 10px;
 
-	padding-left: 2px;
 	border-bottom-right-radius: 3px;
 }
 .nextMonth:hover,

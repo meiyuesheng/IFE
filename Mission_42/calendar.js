@@ -27,8 +27,8 @@ var Calendar = (function() {
 
 			this.datePicker.addClass('datePicker')
 			// 用一个input接口显示或隐藏日历组件
-
-			$(this.datePicker).attr('placeholder','点击选择日期');
+			var placeholder = this.timeBucket?'点击选择日期范围':'点击选择日期';
+			$(this.datePicker).attr('placeholder',placeholder);
 
 			// this.datePicker.focusin(function (event) {
 			
