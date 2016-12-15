@@ -1,0 +1,174 @@
+html,body,div,textarea{
+
+	padding:0;
+	margin:0;
+
+}
+input,button,a{
+	outline: none;
+}
+-moz-focus-inner{
+	border: 0px;
+}
+
+body{
+	padding:1px;
+}
+
+html{
+	height:1650px;
+}
+
+
+.chessbox{
+	float:left;
+
+	font-size: 12px;
+
+	position: relative;
+
+	width:800px;
+
+	margin-top: 10px;
+}
+
+.row,.line{
+
+	
+	height: 37px;
+	
+}
+
+.upnum{
+	float:left;
+
+
+}
+
+
+
+.row div,.line .cell{
+	float: left;
+	width:37px;
+	height:37px;
+	box-sizing: border-box;
+
+	border:thin solid #bdc3c7;
+
+
+}
+
+
+
+
+.line{
+	float:left;
+}
+
+.chessbox .leftnum,.chessbox .upnum{
+	border:0;
+	text-align:center;
+	line-height: 37px;
+}
+
+
+.bot{
+	width:36px;
+	height:36px;
+	position: absolute;
+	
+	top:37px;
+	left:37px;
+	transition: all 0.3s ease;
+
+}
+
+
+/*设置command bar 的css*/
+
+.commandbar{
+	margin-top: 40px;
+	float:left;
+	right:100px;
+
+	top:40px;
+
+	height:30px;
+}
+
+.commandbar button{
+		
+
+}
+
+/* 设置命令编辑器的属性*/
+.editor{
+	border-top: 1px solid #2c3e50;
+	
+	margin-top: 80px;
+	width:440px;
+	background: #2c3e50;
+	height: 800px;
+
+	
+	font-size: 13px;
+	overflow: hidden;
+	
+}
+
+
+
+.commandlineswrapper{
+
+	float:left;
+	height: 100%;
+	width:40px;
+	color: white;
+	box-sizing: border-box;
+
+}
+
+.editor .commandline{
+	
+	position: relative;
+}
+
+
+.editor .commandtext{
+	float:left;
+	
+	background: #34495e;
+
+	width:400px;
+	min-height:800px;
+	border: 0px;
+	color: white;
+	box-sizing: border-box;
+
+	line-height: 20px;
+	
+	
+	resize: none;
+}
+.linenumber{
+	
+	width:30px;
+	text-align: right;
+	line-height: 20px;
+}
+
+
+.line .wall{
+
+	background:#bdc3c7;
+	border:0;
+	
+}
+
+
+.commandline .active{
+	
+	background-color: #27ae60;
+	
+
+}
