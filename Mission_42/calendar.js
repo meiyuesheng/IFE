@@ -103,7 +103,20 @@ var Calendar = (function() {
 
 				me.renderBody();
 			})
+			
+			$(this.calendar).find('.nextMonth').on('click',function (event) {
+					
+				me.date.setMonth(me.date.getMonth()+1);
+				
+				me.renderBody();
+			})
 
+			
+			$(this.calendar).find('.lastMonth').on('click',function (event) {
+				me.date.setMonth(me.date.getMonth()-1);
+
+				me.renderBody();
+			})
 
 			var lastyear = this.calendar.getElementsByClassName('lastYear')[0];
 			lastyear.onclick = function (event) {
