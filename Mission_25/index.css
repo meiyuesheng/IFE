@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{margin:0;
+         padding:10px;
+		 }
+
+
+div {
+	border:1px solid black;
+     padding-top:10px;
+	 margin:10px;
+	 background:white;
+	 overflow:auto;
+	 
+	
+	 min-height:30px;
+	
+	 }
+
+#root{
+   
+
+	
+    overflow:auto;
+	width:400px;
+	background:white;
+	
+	
+	
+}
+
+
+.d2{
+   width300px;
+   	
+ 	}
+
+
+
+.d3{
+	width:200px;
+}
+
+.d4{
+	
+	width:50px;
+	}
+
+/*#root{ width:1000px;
+        height:400px;
+		background: #ffffff;
+		z-index:1;}
+		
+		
+.d2{width:350px;
+     height:350px;
+	 float:left;
+	 z-index:2;
+	 }
+	 
+	 
+.d3{width:150px;
+     height:300px;
+	 float:left;
+	 z-index:3;}
+	 */
+	 
+a{
+   width:15px;
+   height:15px;
+   float:left;
+   margin:0 5px 0 0;
+   display: inline-block;
+   text-align:center;
+   text-decoration:none;
+   border:1px solid black;  	
+ 
+	}

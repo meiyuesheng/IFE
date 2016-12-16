@@ -1,45 +1,24 @@
+# 任务五十
 
-# Frontend Boilerplate
+标签（空格分隔）： 未分类
 
-A boilerplate of things that mostly shouldn't exist.
+---
 
-## Contains
+在此输入正文
+百度前端技术学院：http://ife.baidu.com/task/all
 
-- [x] [Webpack](https://webpack.github.io)
-- [x] [React](https://facebook.github.io/react/)
-- [x] [Redux](https://github.com/reactjs/redux)
-- [x] [Babel](https://babeljs.io/)
-- [x] [Autoprefixer](https://github.com/postcss/autoprefixer)
-- [x] [PostCSS](https://github.com/postcss/postcss)
-- [x] [CSS modules](https://github.com/outpunk/postcss-modules)
-- [x] [Rucksack](http://simplaio.github.io/rucksack/docs)
-- [x] [React Router Redux](https://github.com/reactjs/react-router-redux)
-- [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
-- [ ] Redux effects
-- [x] TodoMVC example
 
-## Setup
+[任务描述](http://ife.baidu.com/task/detail?taskId=50)
 
-```
-$ npm install
-```
+[代码地址](https://github.com/meiyuesheng/IFE/tree/gh-pages/Mission_50)
 
-## Running
+[demo演示](https://meiyuesheng.github.io/IFE/Mission_50/)
 
-```
-$ npm start
-```
+代码地址：https://github.com/meiyuesheng/IFE/tree/gh-pages/Mission_50
 
-## Build
+demo地址：https://meiyuesheng.github.io/IFE/Mission_50/
 
-```
-$ npm run build
-```
 
-## Note
 
-My personal projects have diverged from this quite a bit, I use browserify now instead etc, but feel free to use this if it fits your needs! I won't be updating it a ton for now unless I have time to update it to match my current workflow.
 
-# License
 
-MIT

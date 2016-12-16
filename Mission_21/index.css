@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#inputtext{
+      display:block;	
+	}
+
+#inputtextarea{
+   display:block;	
+	}
+	
+#content{
+	overflow:hidden;
+   	
+	}	
+	
+.innerdiv{
+	float:left;
+	background: #9F6;
+	margin:10px;
+	color:#eee;
+	padding:10px;
+	
+	}
+	
+.innerdiv:hover{
+    background:#0CF;
+	color:red;	
+	}	
+		
+.dele{
+       visibility:hidden;}		

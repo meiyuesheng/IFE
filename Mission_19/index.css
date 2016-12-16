@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.innerdiv{
+	float:left;
+	background:red;
+	
+	
+	
+	width:10px;
+
+	position:absolute;
+	bottom:0;
+	}
+	
+	
+#down{
+	overflow:hidden;
+	
+	width:2000px;
+	
+	position:relative;
+	
+	height:200px;
+	
+	
+	}

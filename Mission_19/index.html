@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>任务十九</title>
+
+
+<link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+
+<body>
+<div class="up">
+	<input type="text" id="inputtext"/>
+	<input type="button" id="left-in" value="左侧入" />
+	<input type="button" id="left-out" value="左侧出" />
+	<input type="button" id="right-in" value="右侧入" />
+	<input type="button" id="right-out" value="右侧出" />
+	<input type="button" id="sort"    value="排序"/>
+</div>
+<div id="down"></div>
+<script>
+
+//获取id
+var id=function(id){
+	return document.getElementById(id);
+	
+	}
+
+
+var patt=new RegExp("[^0-9]");
+
+
+//获得输入值
+ var getvalue=function (){ 
+       var value=id("inputtext").value;
+		
+		 return value;
+		 
+		 }
+
+  
+var leftin=document.getElementById("left-in");
+
+var leftin=id("left-in");
+
+
+var leftout=id("left-out");
+
+var rightin=id("right-in");
+
+var rightout=id("right-out");
+
+
+var data=[170,130,120,110,30,150,70,80,50,40,170,130,120,110,30,150,70,80,50,40,170,130,120,110,30,150,70,80,50,40,170,];
+
+
+//渲染
+function rend(){
+	var down=document.getElementById("down");
+	
+	
+	
+	var ainnerHTML="";
+	
+	var leftmar=0;
+	for(var i=0;i<data.length;i++){
+		
+		ainnerHTML+="<div class='innerdiv' id="+i+" style=height:"+data[i]+"px;left:"+leftmar+"px ></div>";
+		leftmar=leftmar+25;
+		 
+		}
+	 
+	down.innerHTML=ainnerHTML;
+	
+	
+	}
+
+//增加一个元素
+function add(text,dre){
+	     if(data.length>60){alert("已经超出限制");return false;}
+		 if(patt.test(text)){alert("请输入纯数字！")}
+		 else{
+			 if(dre=="left-in"){
+		data.unshift(text);
+		console.log("text"+document.getElementById("inputtext").value);}
+		
+	else {
+		data.push(text);
+	
+		}
+
+	rend();
+	}
+}
+
+
+//删除一个元素
+ function del(arry,dre){
+	
+	if(dre=="left-out"){
+		
+	
+		var text=data[0];
+		alert("是否删除"+text);
+		
+		data.shift();
+		
+		}
+	
+	else{
+		var text=data[data.length-1];
+		alert("是否删除"+text);
+		data.pop();
+		
+		}
+	
+	rend();
+	}
+
+
+
+rightin.onclick=function(){add(getvalue(),"right-in");//绑定事件
+}
+	 
+
+
+
+ leftin.onclick=function(){add(getvalue(),"left-in");}
+ 
+ rightout.onclick=function(){del(getvalue(),"right-out")};
+ 
+ leftout.onclick=function(){del(getvalue(),"left-out")};
+ 
+ 
+ id("down").onclick=function(event){
+	var id= event.target.id;
+	console.log("这是"+id);
+	if(id=="down")return false;
+	data.splice(id,1);
+	rend();
+	 
+	 }
+	 
+id("sort").onclick=function(){
+	sortmethod(data);
+	
+	}
+
+function init(){
+	rend();
+	};
+
+
+function exc(j){
+	var c;
+	c=data[j];
+	data[j]=data[j+1];
+	data[j+1]=c;
+
+	}
+
+function sortmethod(data){
+	
+	var i=0,j=0;
+	var timer;
+		
+		
+	 timer=setInterval(function(){
+		console.log("调用");
+		if(i>=data.length){clearInterval(timer)
+		}
+		
+		else if(j==data.length-1){j=0;i++;
+		
+		}
+		
+		
+		else{if(data[j]>data[j+1])exc(j);
+		rend();
+		j++;
+		
+		}
+	
+	
+	},50)	
+	
+	
+	
+
+	
+}
+
+
+init();
+
+
+</script>
+</body>
+</html>
