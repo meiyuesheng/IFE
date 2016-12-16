@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+  
+  </head>
+<body>
+  <fieldset id="form-gra-time">
+    <legend>请选择日期粒度：</legend>
+    <label>日<input name="gra-time" value="day" type="radio" checked="checked"></label>
+    <label>周<input name="gra-time" value="week" type="radio"></label>
+    <label>月<input name="gra-time" value="month" type="radio"></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>请选择查看的城市：</legend>
+    <select id="city-select">
+      <option value="北京">北京</option>
+	  <option value="上海">上海</option>
+	  <option value="广州">广州</option>
+	  <option value="深圳">深圳</option>
+	  <option value="成都">成都</option>
+	  <option value="西安">西安</option>
+	  <option value="福州">福州</option>
+	  <option value="厦门">厦门</option>
+	  <option value="沈阳">沈阳</option>
+    </select>
+  </fieldset>
+
+  <div id="aqi-chart-wrap">
+  </div>
+ 
+ 
+  
+</body>
+ <script type="text/javascript" src="index.js"></script>
+</html>

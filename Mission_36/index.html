@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+	<meta charset="utf-8">
+	<title>会移动的小方块</title>
+	<link rel="stylesheet" type="text/css" href="modal/modal.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	
+	<div class="chessbox">
+	<img src="image/bot.png" class="bot">	
+	
+
+	</div>
+	
+	<div class="commandbar">
+		<button class="runbutton">点击运行</button>
+		<button class="resetbutton">重置</button>
+		<button class="randombuild">随机修墙</button>
+		<button class="triggerModal">命令提示</button>
+		
+	</div>
+
+	<div class="editor">
+		<dvi class="commandlineswrapper">
+				<div class="commandline"></div>
+		</dvi>
+			
+
+		<textarea class="commandtext"></textarea>
+	</div>
+	
+	<!-- 这里是模态框，用来提示命令格式 -->
+
+	<div class="modal">
+		<div class="modalHead">命令提示</div>
+			
+		<div class="modalContent">
+			<p>正面移动一格:go</p>
+			<p>向左|右|后 转向: turn lef|rig|bac</p>
+			<p>方向不变,向左右上下移动: tra lef|rig|up|down</p>
+			<p>方向转动,并向前移动：mov lef|rig|up|down</p>
+			<p>go tra mov 可指定移动格数。如:go 3,tra lef 3</p>
+			<p>寻路到指定坐标: mov to x,y</p>
+		</div>
+
+		<div class="modalFoot">
+			<button id='confir'>确认</button>
+			<button id="concle">取消</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/editor.js"></script>
+	<script type="text/javascript" src="js/finder.js"></script>
+<script type="text/javascript" src="js/modal/modal.js"></script>
+	
+	<script type="text/javascript">
+	setTimeout(function(){console.log(1);}, 0);
+	console.log(2);
+			var editor = new Editor();
+			var app = new App({"editor":editor});
+			
+			var modal=new Modal();
+	$('button,input,a').focus(function () {
+		this.blur();
+	})
+	</script>
+</body>
+</html>

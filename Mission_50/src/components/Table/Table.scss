@@ -1,0 +1,33 @@
+
+@import '../../styles/variables.scss';
+
+
+.table{
+	width:98%;
+	font-family: 'Microsoft YaHei';
+	
+	border-collapse: collapse;
+
+	.table-th{
+		font-size: 20px;
+		height: 60px;
+		font-weight: 700;
+		&:hover{
+			background:$pink;
+		}
+	}
+
+	.table-tr{
+		height: 48px;
+		
+		border-bottom:1px solid #ccc;
+		&:hover{
+			background: $pink;
+		}
+	}
+
+
+
+}
+
+

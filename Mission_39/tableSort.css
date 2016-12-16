@@ -1,0 +1,78 @@
+
+
+.tablesort,.freezeHead{
+
+	border-collapse: collapse;
+	font-family: '微软雅黑';
+	
+}
+
+
+
+table,td,th{
+	
+	border:2px solid gray;
+	height: 30px;
+}
+
+
+
+
+td,th{	
+	width:80px;
+	background-color:black;
+	color: white;
+	padding:5px 20px ;
+}
+
+td{
+	background-color: white;
+	color:black;
+}
+
+.tablesort td{
+	padding:5px 20px ;
+}
+
+th span{
+	position: relative;
+	left:10px;
+}
+
+th i{
+	
+	position: absolute;
+	color:white;
+
+}
+
+ th{
+	
+	margin:5px;
+}
+
+
+
+i.up{
+	
+
+
+}
+
+i.desc{
+	top:5px;
+	
+}
+
+
+i:hover{
+	cursor: pointer;
+}
+
+
+.freezeHead{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	margin:0;
+}
