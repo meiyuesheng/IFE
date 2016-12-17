@@ -1,0 +1,14 @@
+
+###页面定位导航
+
+####任务描述：
+用jQuery实现的网页内部页面定位导航，点击导航条目录可滚动到相应位置，
+鼠标滚动时导航条显示当前位置信息。
+
+[代码地址](https://github.com/meiyuesheng/IFE/tree/gh-pages/navigation)
+
+[demo演示](https://meiyuesheng.github.io/IFE/navigation/)
+
+代码地址：https://github.com/meiyuesheng/IFE/tree/gh-pages/navigation
+
+demo地址：https://meiyuesheng.github.io/IFE/navigation/

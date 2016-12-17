@@ -1,0 +1,106 @@
+
+
+
+.fix{*zoom:1;}
+.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
+
+html,body,p,input{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑";
+}
+html,body{
+	width:100%;
+}
+
+ul{
+	list-style: none;
+}
+
+div,a,li,span,dl,dd,dt,ul,p,h3{margin:0;
+padding:0;}
+
+.fl{
+	float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+header{
+	
+	height:85px;
+	background:#1D7AD9;
+	color:white;
+	text-align: center;
+	border:1px solid #1D7AD9;
+
+}
+
+header p{
+		vertical-align: middle;
+		font-size: 22px;
+		line-height: 25px;
+		padding-top: 35px;
+		font-family:"微软雅黑";
+
+}
+
+
+.register{
+	padding-top:40px;
+	width:640px;
+
+	margin:auto;
+	border:1px solid #ccc;
+	margin-top:10px;
+	font-size: 15px;
+	color:#999999;
+	line-height: 22px;
+	position: relative;
+}
+
+
+.register li label{
+	color:red;
+}
+.register li{
+	margin-bottom: 30px;
+}
+.register span{
+	width:190px;
+	display: inline-block;
+	text-align: right;
+}
+
+.register .input{
+	width:270px;
+	height:40px;
+}
+
+.register p{
+	font-size: 12px;
+	margin:auto;
+	width:200px;
+}
+
+
+.register p a{
+		font-size: 12px;
+}
+
+
+.register button{
+	width:270px;
+	height: 38px;
+	margin:35px auto 55px 200px;
+	background: url(images/提交.gif);
+}

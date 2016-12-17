@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width:100%;
+   font-family: "黑体";
+   font-size: 14px;
+}
+
+.container{position:relative;
+           margin:0;
+		   height:auto;
+		   width:auto;
+		   overflow:hidden;
+		   zoom:1;
+		   padding:80px 0 80px 0 ;
+		   background:#eee;
+		   }
+
+
+/*.main {
+	float:left;
+	
+	padding: 20px 20px 20px 20px;
+	overflow: hidden;
+	zoom:1;
+	margin:0 400px 0 0;
+
+
+}*/
+#top {
+	position: absolute;
+	background:black;
+	width: 100%;
+	height: 60px;
+	top:0;
+	
+}
+footer {
+	position:absolute;
+	background:black;
+	
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	color:white;
+	text-align:center;
+	font-size:16px;
+	font-weight: 100;
+	line-height:50px;
+	
+}
+
+.right {
+	
+	position:absolute;
+	top:100px;
+	right:20px;
+	width: 350px;
+	height: 600px;
+	padding:20px;
+	
+	
+	
+	padding:20;
+	margin-right:0px;
+	/*margin-top:20px;*/
+	box-shadow:1px 1px 5px 0.5px #666666;
+	background:#FFF;  
+}
+
+
+div {
+	
+	
+}
+
+.k {
+	
+	margin:20px 452px 40px 40px;
+	padding:20px;
+	width:auto;
+	word-break:break-all;
+    word-wrap:break-word;
+	box-shadow:1px 1px 5px 0.5px #666666;
+	background:#FFF;
+}
+
+.k3{overflow:hidden;
+		   zoom:1;}
+
+.k4{margin-bottom:0;}
+
+.small{font-size:small;
+        color:gray;
+		font-weight:bold;
+		text-indent:0;
+		
+		}
+
+p {text-indent:2em;}
+
+.k span {font-weight:bold;}
+
+.pk3{src:url(tu5.jpg);
+     width:200px;
+	 height:200px;}
+
+
+div.img{
+      border:1px solid black;
+	  float:left;
+	  padding:5px;
+	  width:150px;
+	  height:150px;
+	  margin-bottom:50px;
+	  margin-left:70px;
+	  padding:10px;
+	  text-align:center;
+	  
+	  
+	}
+	
+	
+div.img img{width:120px;
+             height:120px;
+			 display:inline;
+			 margin-top:10px;}
+			 
+h2 {color:gray;}
+
+table {margin:0;
+      border:1px;
+	  width:100%;
+	  border:1px solid gray;
+	
+	 
+	 cellpadding:1px;
+	  border-collapse:collapse;
+	   cellspacing:0px;
+       }
+	   
+
+th{ text-align:left;
+     background:black;
+	 color:white;}
+
+tfoot{background:black;
+      color:white;}
+	  
+.right p{text-indent:0px;}
+
+form{
+      font-weight:bold;}
+
+.inputmessage{
+	display:inline-block;
+	
+	text-align:right;
+    width:30%;
+	
+	margin-right:20px;}
+form div{margin-top:10px;}
+	
+.bot{vertical-align:bottom;}
+
+.rnote{margin-left:135px;
+       font-size:13px;
+	   color:gray;
+	   font-weight:500;
+	   margin-top:10px;}
+	   
+textarea{vertical-align:top;}
+
+.button{width:100%;
+        height:40px;
+		border-radius:5px;
+		background: #03F;
+		color:white;
+		border:0;
+	
+		}

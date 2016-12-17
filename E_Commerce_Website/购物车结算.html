@@ -1,0 +1,300 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>购物车结算页</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/购物车结算页.css">
+</head>
+<body>
+
+<!--设置头部结构，头部里面又分为三行-->
+<header>	
+		<div class="hbar1">
+			<div class="hbar1left">
+				<a href="#">收藏本商城</a>
+			</div>
+
+			<div class="hbar1right">
+				<p>欢迎来到万界商城——万界通识[<a href="#">登录</a>][<a href="#">免费注册</a>]</p>
+			</div>
+		</div>
+
+		<div class="hbar2">
+			
+			<div class="search fl">
+			<input type="text" name="text" value="smgui" id="hb2text">
+			<input type="submit" value="搜索" id="hb2submit">
+			</div>
+
+			<div class="shopcar fl" id="hbar2con2">
+				<span class="car fl">购物车</span>
+				<span class="icon fr">0</span>
+			</div>
+
+		</div>
+
+
+		
+			
+			
+		</div>
+
+
+		</header>
+		
+
+
+<div class="shopcar_addr shop_box">
+	
+	<div class="shopcar_tit">
+		<h3>收货信息</h3>
+	</div>
+
+
+	<div class="shopcar_mes">
+		<ul>
+			<li><em>*</em><span>选择地区</span>：<select>
+						<option value="">北京&nbsp;海淀&nbsp;五环</option>
+						<option value="天津">天津</option>
+
+						<option value="广州">广州</option>
+					</select>
+			</li>
+
+			<li>
+				<em>*</em><span>详细地址</span>：<input  class="input_big" type="text" name="" placeholder="最多输入26个汉字">
+
+			</li>
+
+			<li>
+				<em>*</em><span>收货人</span>：<input type="text" name="" placeholder="最多输入10个汉字">
+
+			</li>
+
+			<li>
+				<em>*</em><span>手机</span>：<input type="text" name="" placeholder="1325442445">&nbsp;或固定电话：<input class="input_small" type="text" name=""><i>-</i><input type="text" name=""><i>-</i><input  class="input_small" type="text" name="">
+				
+			</li>
+
+			<li><button>确认收货地址</button></li>
+		</ul>
+
+
+	</div>
+
+
+
+</div>
+
+
+<div class="shopcar_pay shop_box">
+	
+	<div class="shopcar_tit">
+		<h3>支付方式</h3>
+	</div>
+
+
+	<div class="shopcar_mes">
+		<ul>
+			<li>
+			<input type="radio" name="">微信支付<span class="wechat">微信扫一扫就能支付</span>
+			</li>
+
+			<li>
+			<input type="radio" name="">货到付款<span>送货上门然后付款，使用现金或者银行卡支付</span>
+			</li>
+
+			
+		</ul>
+
+
+	</div>
+
+
+
+</div>
+
+
+<div class="shopcar_fapiao shop_box">
+	
+	<div class="shopcar_tit">
+		<h3>发票信息</h3>
+	</div>
+
+
+	<div class="shopcar_mes">
+		<ul>
+			<li ><input type="checkbox" name="" class="checkbox" checked="checked">需要发票</li>
+			<li><em>*</em><span>发票类型</span>：<select>
+						<option value="">商业零售发票</option>
+						<option value="天津">天津</option>
+
+						<option value="广州">广州</option>
+					</select>
+			</li>
+
+			<li>
+				<em>*</em><span>发票抬头</span>：<select>
+						<option value="">个人</option>
+						<option value="天津">团体</option>
+
+						<option value="广州">公司</option>
+					</select>&nbsp;<input  type="text" name="" placeholder="阿斯顿">
+
+			</li>
+
+			<li>
+				<button class="save">保存</button><button class="concel">取消</button>
+
+			</li>
+
+			
+		</ul>
+
+
+	</div>
+
+
+
+</div>
+
+
+
+
+<div class="shopcar_songhuo shop_box">
+	
+	<div class="shopcar_tit">
+		<h3>送货清单<a href="#">返回购物车修改</a></h3>
+	</div>
+
+
+	<div class="shopcar_mes">
+			<div class="shopcar_item fix">
+				<div class="h_name">商品名称</div>
+				<div class="h_price">单价</div>
+				<div class="h_return">返现</div>
+				<div class="h_num">数量</div>
+				<div class="h_total">小计</div>
+			</div>
+
+
+			<div class="shopcar_item content fix">
+				<div class="h_name">
+					<img src="images/haisense.gif" class="fl">	
+					<div class="item_right">
+						<p><a href="#">haisense 冰箱 三开门 银色</a></p>
+						<p class="zengping">[赠品]保鲜盒抽真空海信冰箱赠品</p>
+					</div>
+				</div>
+				<div class="h_price">￥14526</div>
+				<div class="h_return">￥0</div>
+				<div class="h_num">
+				<p>1</p>
+				<p class="zengping">1</p></div>
+				<div class="h_total">￥1459</div>
+			</div>
+
+			<div class="yaoqiu fix">
+			<p class="liuyan"><a href="#">若您对包裹有特殊要求，请在此留言</a></p>
+			
+			<p class="sorry">抱歉，一下商品不能够买，已经帮您自动在购物车减去相应金额</p>
+
+			<div class="wuhuo">
+					<img src="images/haisense.gif" class="fl">	
+					<div class="item_right">
+						<p><a href="#">数量欧式系列</a></p>
+						<p class="">数量</p>
+						<p class="">单价</p>
+					</div>
+
+			</div>
+	</div>
+
+
+
+</div>
+
+</div>
+
+
+<div class="shopcar_addr shop_box">
+	
+	<div class="shopcar_tit">
+		<h3>订单结算</h3>
+	</div>
+
+
+	<div class="shopcar_mes fix">
+		<div class="fix  jieshuan">
+			<p><label>总计</label><span>￥1456元</span></p>
+			<button>提交订单</button>
+		</div>
+			
+
+	</div>
+
+
+
+</div>
+
+
+
+
+
+
+<footer>
+		<ul class="connect">
+		<li><a href="#">作者简介</a></li>
+		<li><a href="#">网站公告</a></li>
+		<li><a href="#">招贤纳士</a></li>
+		<li><a href="#">联系我</a></li>
+		<li>客服热线：400-820-8820</li>
+
+	</ul>
+
+
+	<ul class="info">
+		<li>Copyright © 2016<a href="#">@梅月生</a>版权所有</li>
+		<li>京ICP备09037834号</li>
+		<li>京ICP证B1034-8373号</li>
+		<li>某市公安局XX分局备案编号：123456789123</li>
+
+	</ul>
+
+
+<ul class="footerlogo">
+			<li><a href="#"><img src="images/footer_logo.gif"></a>
+			<li><a href="#"><img src="images/footer_logo.gif"></a>
+			<li><a href="#"><img src="images/footer_logo.gif"></a>
+			<li><a href="#"><img src="images/footer_logo.gif"></a>
+
+	</ul>
+
+
+</footer>
+
+
+
+
+<script type="text/javascript">
+
+var bannerbarbutton=document.getElementsByClassName('active')[1];
+
+
+bannerbarbutton.onclick=function () {
+	console.log("点击");
+	document.getElementById('shiyan2').style.marginLeft=-810+"px";
+}
+
+		
+
+</script>
+
+		
+
+
+</body>
+</html>
+

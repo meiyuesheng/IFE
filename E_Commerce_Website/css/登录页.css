@@ -1,0 +1,123 @@
+.fix{*zoom:1;}
+.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
+
+html,body,p,input{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑";
+}
+html,body{
+	width:100%;
+}
+
+ul{
+	list-style: none;
+}
+
+div,a,li,span,dl,dd,dt,ul,p,h3{margin:0;
+padding:0;}
+
+.fl{
+	float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+header{
+	
+	height:85px;
+	background:#1D7AD9;
+	color:white;
+	text-align: center;
+	border:1px solid #1D7AD9;
+
+}
+
+header p{
+		vertical-align: middle;
+		font-size: 22px;
+		line-height: 25px;
+		padding-top: 35px;
+		font-family:"微软雅黑";
+
+}
+
+
+.login{
+	padding-top:40px;
+	width:460px;
+	
+	margin:auto;
+	border:1px solid #ccc;
+	margin-top:10px;
+	font-size: 12px;
+	color:#999999;
+	line-height: 22px;
+	position: relative;
+}
+
+.login li{
+	margin-bottom:15px;
+}
+
+.login .input{
+	width:310px;
+	height:35px;
+
+}
+
+.login ul{
+	margin-left:80px;
+}
+
+.login .checkbox span{
+	margin-right: 10px;
+}
+
+.login .checkbox input{
+	margin-right: 5px;
+}
+
+.login li button{
+	width:305px;
+	height:35px;
+	border-radius:3px;
+		
+	
+	background: url(images/登录.gif);
+}
+
+.login dl{
+	margin-bottom: 25px;
+}
+.login dd{
+	float: left;
+}
+
+dd a{
+	color:#666666;
+}
+
+dd label{
+	padding:5px;
+}
+
+.register{
+	height: 30px;
+	width:115px;
+	background:url(images/免费注册.gif);
+	border:0;
+	padding:0;
+	position: absolute;
+	right: 40px;
+	bottom:-30px;
+}
