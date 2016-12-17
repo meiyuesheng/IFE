@@ -34,9 +34,9 @@
 ###其他任务查看方法：
 - 代码地址：
 输入 https://github.com/meiyuesheng/IFE/tree/gh-pages + 项目文件夹名
-如 Mission_50 地址为 https://github.com/meiyuesheng/IFE/tree/gh-pages/Mission_50
+- 如 Mission_50 地址为 https://github.com/meiyuesheng/IFE/tree/gh-pages/Mission_50
 或者由本页面点击进入。
 
 - demo地址：
-输入 https://meiyuesheng.github.io/IFE/ + 项目文件夹名
+- 输入 https://meiyuesheng.github.io/IFE/ + 项目文件夹名
 如 Mission_36 https://meiyuesheng.github.io/IFE/Mission_36
