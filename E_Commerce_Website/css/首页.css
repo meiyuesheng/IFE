@@ -258,7 +258,17 @@ border:0;
 	position: absolute;
 	top:30px;
 	left:0px;
+	z-index: 1;
 }
+
+.shopclass:hover dl{
+	display: block;
+}
+.shoplist:hover{
+
+	display: block!important;
+}
+
 .shopclass dd{
 	
 	height: 40px;

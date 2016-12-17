@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>assdd万界商城</title>
+	<title>首页</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/首页.css">
 </head>
@@ -16,14 +16,14 @@
 			</div>
 
 			<div class="hbar1right">
-				<p>欢迎来到万界商城——万界通识[<a href="#">登录</a>][<a href="#">免费注册</a>]</p>
+				<p>欢迎来到万界商城[<a href="#">登录</a>][<a href="#">免费注册</a>]</p>
 			</div>
 		</div>
 
 		<div class="hbar2">
 			
 			<div class="search fl">
-			<input type="text" name="text" value="smgui" id="hb2text">
+			<input type="text" name="text" placeholder="请输入搜索内容" id="hb2text">
 			<input type="submit" value="搜索" id="hb2submit">
 			</div>
 
@@ -81,7 +81,7 @@
 					<a href="#">单反</a>					
 				</dd>
 			</dl>
-			</div>
+		</div>
 					<div class="shoplist hide">
 						<dl>
 							<dt class="fl">电脑整机</dt>
@@ -183,7 +183,7 @@
 							</dl>
 					</div>
 
-
+			
 			
 			<nav class="nav">
 				<ul id="aul">
@@ -499,8 +499,20 @@ bannerbarbutton.onclick=function () {
 	document.getElementById('shiyan2').style.marginLeft=-810+"px";
 }
 
-		
+var shopclass = document.getElementsByClassName('shopclass')[0];
 
+var dl = shopclass.getElementsByTagName('dl')[0];
+var shoplist = document.getElementsByClassName('shoplist')[0];
+dl.onmouseenter = function (event) {
+	console.log("事件触发");
+	shoplist.style.display='block';
+}
+dl.onmouseleave = function (evnet) {
+	shoplist.style.display = 'none';
+}
+dl.onclick = function () {
+	console.log("点击");
+}
 </script>
 
 		
