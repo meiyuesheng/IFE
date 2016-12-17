@@ -1,0 +1,13 @@
+html,body{margin:0;
+          padding:0;
+
+          }
+
+div{
+  width:200px;
+   height:200px;
+   background:orange;
+   opacity:0.7;
+  
+
+}          

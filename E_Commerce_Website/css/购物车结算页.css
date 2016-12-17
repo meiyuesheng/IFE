@@ -1,0 +1,501 @@
+
+.fix{*zoom:1;}
+.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
+
+html,body,p,input{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑";
+}
+html,body{
+	width:100%;
+}
+
+ul{
+	list-style: none;
+}
+
+div,a,li,span,dl,dd,dt,ul,p,h3{margin:0;
+padding:0;}
+
+.fl{
+	float: left;
+
+}
+
+.fr{
+	float: right;
+}
+
+a{
+	color:black;
+}
+
+/*隐藏显示功能*/
+
+.hide{
+	display:none;
+}
+
+.show{
+	display: bolck;
+}
+
+
+
+body{
+
+		
+		overflow:auto;
+		padding-bottom: 230px;
+		position: relative;
+}
+
+
+
+header{
+	min-width:990px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.hbar1{
+	background:RGB(247,247,247);
+	overflow: hidden;
+	height: 30px;
+}
+
+.hbar1left{
+	float:left;
+	margin-left:50px;
+
+}
+
+.hbar1left a{
+
+	background: url(images/黄色五角星.png) no-repeat left;
+	text-decoration:none;
+	padding:20px;
+}
+
+.hbar1right{
+	float:right;
+	overflow: hidden;
+	margin-right:100px;
+}
+
+
+.hbar2{
+	height:90px;
+	background:RGB(29,122,217);
+	font-size:0;
+}
+
+#hb2text{
+	width:79%;
+	height:30px;
+border:0;
+}
+
+#hb2submit{
+	width:20%;
+	height:30px;
+	background:RGB(255,140,0);
+	color: white;
+	font-size: 14px;
+	border:0px;
+	margin-top: 0px;
+
+
+	
+}
+
+#hb2submit:focus{
+	outline:1px solid ;
+	outline-offset: -1px;
+}
+
+.hbar2 input{
+	
+	margin-top:0;
+	
+	padding:0;
+}
+
+
+.search{
+	
+	max-width: 430px;
+	width:33%;
+	margin-left: 45%;
+	margin-top:30px;
+
+
+
+}
+
+.hbar2con2 a{
+		height:20px ;
+		width: 70px;
+		display: inline-block;
+		color:white;
+		font-size: 14px;
+		vertical-align: center;
+}
+
+	
+.shopcar{
+	height:30px;
+	width:140px;
+	background: RGB(255,140,0);
+	margin-top: 30px;
+	margin-left: 20px;
+
+}
+
+
+	
+
+
+.shopcar .car{
+	
+	
+	background:RGB(255,140,0) url(images/购物车.gif) no-repeat 10px center ;
+	text-align:center;
+	
+	height:30px;
+	width:84px !important;
+	
+	color:white;
+	text-indent:30px;
+	font-size: 14px;
+	line-height: 30px;
+	border-right:1px solid white;
+	
+	
+	
+}
+
+
+.shopcar .icon{
+
+	width:35px;
+	height:30px;
+	font-size: 14px;
+	color:white;
+	line-height:30px;
+	background:url(images/下拉三角.gif) no-repeat 35px center;
+	padding:0 0px 0 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+	position:absolute;
+	top:atuo;
+	bottom:0;
+	height: 225px;
+	background:#d4d4d4;
+	overflow: hidden;
+}
+
+footer .connect,.info,.footerlogo{
+	margin:auto;
+	overflow: hidden; 	
+	text-align: center;
+	
+	
+	margin-left: 50%;
+
+	transform: translate(-50%,0);
+
+
+
+	display: inline-block;	
+	
+}
+
+
+footer .connect{
+	margin-top: 50px;
+}
+
+.connect li:first-child{
+	border:0;
+	
+}
+
+
+footer .connect li{
+	float: left;
+	padding:1px 5px 1px 5px;
+	list-style: none;
+	border-left: 1px solid black;
+	display: inline-block;
+
+}
+
+footer .connect li a{
+	text-decoration: none;
+	color:black;
+}
+
+footer .connect li a:hover{
+
+	color:orange;
+}
+
+footer {
+	padding:1px 0;
+}
+
+footer .info {
+	margin-top:12px;
+	min-width: 800px;
+}
+
+footer .info li{
+	float: left;
+	font-size: 12px;
+	list-style: none;
+	padding:0 10px 0 10px;
+}
+
+
+.footerlogo li{
+	list-style: none;
+	float:left;
+	margin:35px 25px 0 0;
+}
+
+.shop_box{
+	width:1000px;
+	border:1px solid #CCCCCC;
+	margin:auto;
+	margin-top:13px;
+}
+
+
+.shopcar_tit{
+	background: #F4F4F4;
+
+}
+.shopcar_tit h3{
+	color: #444444;
+	font-size: 15px;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 10px;
+	font-family: "微软雅黑";
+	font-weight:normal;
+}
+
+.shopcar_mes{
+	padding-left: 30px;
+	padding-top:13px;
+	font-size: 12px;
+	font-family: "宋体";
+	color:#434343;
+
+}
+.shopcar_mes input{
+	height:22px;
+}
+.shopcar_mes li{
+	margin-bottom: 15px;
+}
+
+
+
+.shopcar_mes li em{
+	color: #FF0000;
+	padding-right: 10px;
+}
+
+.shopcar_addr .shopcar_mes li span{
+	display: inline-block;
+	width:65px;
+	text-align: justify;
+	-moz-text-align-last: justify;
+}
+
+.shopcar_addr button{
+
+	width:115px;
+	height:25px;
+	background:#3E8BF5;
+	border:1px solid #3784ED;
+	color:white;
+}
+
+.input_big{
+	width:400px;
+}
+
+.input_small{
+	width:65px;
+}
+
+li i{
+ 	
+ 	padding:0 5px 0 3px;
+
+}
+
+.shopcar_pay input{
+	vertical-align: middle;
+	margin-right:5px;
+}
+
+.shopcar_pay span{
+	margin-left:10px;
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+.shopcar_pay .wechat{
+	background: url(images/微信.gif) no-repeat left center;
+	padding-left:35px;
+}
+
+
+.shopcar_fapiao input.checkbox{
+		vertical-align: middle;
+		margin-right: 10px;
+
+}
+
+.shopcar_fapiao button{
+	margin-left: 10px;
+width:65px;
+	height:25px;
+}
+
+
+.shopcar_fapiao button.save{
+	background: #4290FB;
+	
+	border:1px solid #3784ED;
+	color:white;
+}
+
+.shopcar_fapiao button.concel{
+	background: #F2F2F2;
+	border:1px solid #CCCCCC;
+
+}
+
+
+
+.shopcar_songhuo .shopcar_tit a{
+
+float:right;
+color:#3377FF;
+margin-right: 30px;
+font-size: 12px;
+}
+
+.shopcar_songhuo .shopcar_mes{
+	padding-left: 0px;
+}
+
+.shopcar_item div{
+	line-height: 24px;
+	float: left;
+	
+}
+
+.shopcar_item {
+	border-bottom: 1px solid #ccc; 	 
+	padding-left: 30px;
+}
+
+.shopcar_item .h_name{
+	width:440px;
+	
+}
+
+.shopcar_item .h_price{
+	width:135px;
+}
+
+
+.shopcar_item .h_return{
+	width:130px;
+}
+
+.shopcar_item .h_num{
+	width:135px;
+}
+
+.shopcar_item .h_total{
+	width:125px;
+}
+
+.zengping{
+	margin-top:35px;
+}
+
+.shopcar_mes .content .h_total{
+	color:#EE0000;
+	font-size: 14px;
+}
+
+.yaoqiu{
+	padding-left:30px;
+
+}
+
+.yaoqiu .liuyan a{
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color:#3377FF;
+}
+
+.sorry{
+	color:red;
+	background:url(images/感叹号.gif) no-repeat left center;
+	padding:20px;
+}
+
+.wuhuo p{
+	padding-top:10px;
+}
+
+.jieshuan{
+	width:190px;
+	height: 100px;
+	float: right;
+	margin-right: 20px;
+}
+
+.jieshuan p{
+	font-size: 25px;
+}
+.jieshuan p label{
+	font-size: 12px;
+}
+
+.jieshuan p span{
+	color:#E50007;
+}
+.jieshuan button{
+	width:165px;
+	height:35px;
+	background: #E50007;
+	border-color: #E50007;
+}
